@@ -19,6 +19,7 @@ description: >
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "/cctech" # the subpath of your site, e.g. /blog/
+#baseurl: "" #로켈에서는 공백으로
 url: "" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
@@ -193,8 +194,8 @@ social:
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
     fb_image: "/assets/logo.png"
-    fb_image_width: 612
-    fb_image_height: 605
+    fb_image_width: 512
+    fb_image_height: 512
     fb_image_type: "image/png"
 
     twitter_image: "/assets/logo.png"
