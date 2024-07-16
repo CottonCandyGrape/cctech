@@ -9,17 +9,17 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: CCGrape Tech Blog 
+subtitle: "유니티, C# 기술 블로그입니다."
+email: cpls9320@gmail.com
+name: CottonCandyGrape
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  유니티, C# 기술 블로그입니다.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/cctech" # the subpath of your site, e.g. /blog/
-#baseurl: "" #로켈에서는 공백으로
+#baseurl: "/cctech" # the subpath of your site, e.g. /blog/
+baseurl: "" #로컬에서는 공백으로
 url: "" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"

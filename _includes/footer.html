@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <h3 class="footer-heading">{{ site.title }}</h3>
+    <!--<h3 class="footer-heading">{{ site.title }}</h3>-->
 
     <div class="site-navigation">
 
@@ -23,6 +23,7 @@
           </a>
         </li>
 
+        <!--
         {% for social in site.social %}
           {% if social.url != "" %}
           <li>
@@ -33,13 +34,14 @@
           </li>
           {% endif %}
         {% endfor %}
+        -->
 
       </ul>
     </div>
 
     <div class="site-signature">
       <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
-      <p class="text">{{ site.description }}</p>
+      <!--<p class="text">{{ site.description }}</p>-->
     </div>
 
   </div>
