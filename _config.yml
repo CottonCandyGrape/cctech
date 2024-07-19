@@ -18,8 +18,8 @@ description: >
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/cctech" # the subpath of your site, e.g. /blog/
-#baseurl: "" #로컬에서는 공백으로
+#baseurl: "/cctech" # the subpath of your site, e.g. /blog/
+baseurl: "" #로컬에서는 공백으로
 url: "" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
@@ -30,12 +30,14 @@ inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
 # Pagination Settings
+paginate: 5
+paginate_path: "/page:num/"
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: "/cctech/:num/"
-  sort_reverse: true
+#pagination:
+#  enabled: true
+#  paginate: 5
+#  permalink: "/page:num/"
+#  sort_reverse: true
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 #jekyll-archives:

@@ -18,10 +18,7 @@ pagination:
 
   <div class="wrapper">
     <ul class="post-list">
-      here
-
       {% for post in paginator.posts %}
-      test
       <li>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -49,9 +46,6 @@ pagination:
       {% endif %}
       {% endfor %}
     </ul>
-
-    here2
-
 
     <nav class="pagination" role="navigation">
       <p>
