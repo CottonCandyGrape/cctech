@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: CCGrape Tech Blog 
+title: CCG Tech Blog 
 subtitle: "유니티, C# 기술 블로그"
 email: cpls9320@gmail.com
 name: CottonCandyGrape
