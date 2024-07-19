@@ -7,7 +7,7 @@ layout: default
   <div class="scrim {% if page.cover %}has-cover{% endif %}">
     <header class="post-header">
       <h1 class="title">{{ page.title }}</h1>
-      <p class="info">by <strong>{{ page.author }}</strong></p>
+      <!--<p class="info">by <strong>{{ page.author }}</strong></p>-->
     </header>
   </div>
 </div>
@@ -33,6 +33,7 @@ layout: default
   {{ content }}
 </article>
 
+<!--
 {% if site.jekyll-archives %}
 {% if page.tags.size > 0 %}
 <section class="tags">
@@ -40,6 +41,7 @@ layout: default
 </section>
 {% endif %}
 {% endif %}
+-->
 
 <!--
 <section class="rss">
@@ -94,6 +96,7 @@ layout: default
 </section>
 -->
 
+<!--
 {% if site.inter_post_navigation == true %}
 	<section class="post-navigation">
 		<span class="prev-post">
@@ -120,7 +123,9 @@ layout: default
 		</span>
 	</section>
 {% endif %}
+-->
 
+<!--
 {% if site.disqus_shortname %}
 {% unless page.disqus_disabled %}
 <section class="disqus">
@@ -140,6 +145,7 @@ layout: default
 </section>
 {% endunless %}
 {% endif %}
+-->
 
 </div>
 </div>

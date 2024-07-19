@@ -366,6 +366,21 @@ pre code.hljs {
 			padding-bottom: 0.5em;
  		}
 	}
+	/*
+	*	Search
+	*/
+	.search-bar {
+		margin: 5px auto;
+		border: 1px solid #ccc;
+		border-radius: 20px;
+		padding: 0 20px;
+		&.search-input {
+			width: calc(100% - 30px);
+			border: none;
+			line-height: 44px;
+			outline: none;
+		}
+	}
 }
 
 /*
