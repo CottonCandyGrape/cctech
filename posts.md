@@ -3,6 +3,7 @@ layout: page
 title: "Posts"
 permalink: /posts/
 main_nav: true
+order: 1
 ---
 
 {% for category in site.categories %}
