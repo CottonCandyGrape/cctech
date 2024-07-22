@@ -37,7 +37,7 @@ order: 2
 -->
 
 <!-- Script pointing to jekyll-search.js -->
-<script src="{{ site.baseurl }}/js/simple-jekyll-search.js" type="text/javascript"></script>
+<script src="{{ site.url }}/js/simple-jekyll-search.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 SimpleJekyllSearch({
