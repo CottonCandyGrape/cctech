@@ -16,3 +16,27 @@ layout: default
 
 </div>
 </div>
+
+<!-- Script pointing to jekyll-search.js -->
+<script src="{{ site.baseurl }}/js/simple-jekyll-search.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+SimpleJekyllSearch({
+     searchInput: document.getElementById('search-input'),
+     resultsContainer: document.getElementById('results-container'),
+     json: '{{ site.baseurl }}/search.json',
+     searchResultTemplate: '<li>\
+      <div>\
+      <i class="fa fa-folder fa-fw" style="color: rgb(150, 150, 150);"></i> <a href="{url}"> {categories} / \
+      <i class="fa fa-book fa-fw" style="color: rgb(150, 150, 150);"></i> {title} / \
+      <i class="fa fa-calendar fa-fw" style="color: rgb(150, 150, 150);"></i> {date} \
+      <br>\
+      <i class="fa fa-tag fa-fw" style="color: rgb(150, 150, 150);"></i> {no tags} </a> \
+      </div>\
+      </li>',
+     noResultsText: 'No results found',
+     limit: 15,
+     fuzzy: false,
+     exclude: ['Welcome']
+});
+</script>
