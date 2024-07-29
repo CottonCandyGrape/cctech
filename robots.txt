@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /_drafts/
+Disallow: /_includes/
+Disallow: /_plugins/
+Disallow: /_sass/
+Disallow: /css/
+Disallow: /js/
